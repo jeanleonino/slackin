@@ -1,5 +1,5 @@
 applications:
-  name: angelhacksp
+- name: angelhacksp
   command: slackin angelhacksp xoxp-35307448340-35322013541-35314714150-977ba00092
   memory: 1024M
   instances: 2   # 2 allows for high-availability and zero-downtime deploys
