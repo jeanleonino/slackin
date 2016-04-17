@@ -6,7 +6,7 @@ applications:
   disk_quota: 128M
   instances: 2   # 2 allows for high-availability and zero-downtime deploys
   buildpack: https://github.com/cloudfoundry/nodejs-buildpack
-  host: slack
+  host: angelhacksp
   domain: mybluemix.net
   path: .
   
