@@ -1,12 +1,12 @@
 ---
 applications:
-- name: slack
+- name: angelhacksp
   command: slackin angelhacksp xoxp-35307448340-35322013541-35314714150-977ba00092
   memory: 256M
   disk_quota: 128M
   instances: 2   # 2 allows for high-availability and zero-downtime deploys
   buildpack: https://github.com/cloudfoundry/nodejs-buildpack
   host: slack
-  domain: <your-domain>
+  domain: mybluemix.net
   path: .
   
